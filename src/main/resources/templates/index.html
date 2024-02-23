@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		
+		<link th:href="@{/css/bootstrap.css}" rel="stylesheet" href="../static/css/bootstrap.css" />
+		
+		<script th:src="@{/js/jquery.js}" src="../static/js/jquery.js"></script>
+		<script th:src="@{/js/bootstrap.js}" src="../static/js/bootstrap.js"></script>
+		
+		<title>Curso de Spring Boot.Jose</title>
+	</head>
+	
+	<body>
+		<!--Barra-Nav-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary" >
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="#">Spring Boot.Jose Barra</a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		      <div class="navbar-nav">
+		        <a class="nav-link active" aria-current="page" th:href="@{/}" href="#">Inicio</a>
+		        <a class="nav-link" th:href="@{/}">Galeria</a>
+		        <a class="nav-link" href="#">Post</a>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+		<!--Cabecera-Header-->
+		<div class="mb-3">
+		  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+		  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+		</div>
+		<div class="mb-3">
+		  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+		  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		</div>	
+		
+		<div class="container">
+			<div class="row">
+				<!--Tarjetas-Cars-->
+				<div th:each="posts : ${posts}" class="col-3">
+					<div class="card" style="width: 18rem;">
+					  <img th:src="${posts.uriImg}" src="../static/img/post.JPG" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <h5 th:text="${posts.titulo}" class="card-title">Card title</h5>
+					    <p th:text="${posts.Descripcion}" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a th:href="@{/home/post?id=}+${posts.id}" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+				</div>
+				
+				
+				
+				<!--paginacion-->
+				<div class="row">
+					<div class="col-12">
+						<nav aria-label="Page navigation example">
+						  <ul class="pagination justify-content-center">
+						    <li class="page-item">
+						      <a class="page-link" href="#" aria-label="Previous">
+						        <span aria-hidden="true">&laquo;</span>
+						      </a>
+						    </li>
+						    <li class="page-item"><a class="page-link" href="#">1</a></li>
+						    <li class="page-item"><a class="page-link" href="#">2</a></li>
+						    <li class="page-item"><a class="page-link" href="#">3</a></li>
+						    <li class="page-item">
+						      <a class="page-link" href="#" aria-label="Next">
+						        <span aria-hidden="true">&raquo;</span>
+						      </a>
+						    </li>
+						  </ul>
+						</nav>
+					</div>
+				</div>
+								
+			</div>
+		</div>
+		<footer>
+			<p>BytePL_Jose</p>
+		</footer>	 
+	</body>
+</html>
