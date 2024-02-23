@@ -66,10 +66,12 @@ public class CursoSpringApplication implements CommandLineRunner{
 		try {
 			postService.validation(postComponent.getPosts())
 				.forEach((post) -> {
-					System.out.println("==> "+post.getTitulo());
+					//System.out.println("==> "+post.getTitulo());
+					log.info(post.getTitulo());
 				});
 		}catch (Exception e){
-			System.out.print(e.getMessage());
+			//System.out.print(e.getMessage());
+			log.error(e);
 		}
 	}
 }

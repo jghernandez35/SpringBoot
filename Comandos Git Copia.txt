@@ -1,0 +1,104 @@
+==========================================================================
+(para hacer un push) Guardar un estado 
+git add .   		pasa los archivos a preparados y seguimiento
+git commit -m "mensaje del comit " guarda el estado actual del repositorio
+git push origin master	
+
+(Clonar)
+git clone URL
+
+(para hacer un pull)
+git add .
+git reset -- hard HEAD
+git pull origin master
+
+*************************************************
+git status
+
+git add.
+todos los archivos a seguimiento
+
+git commit -m "comentario"
+
+git config -global user.name "Jose Hernandez"
+
+git config 
+
+git commit -m "Comentario"
+
+git log 
+los comit que hemos hecho
+
+git reset --hard
+
+
+Comandos con repositorios remotos
+
+git remote add alias url --vincula repositorio remoto y se asigna un alias
+
+git push alias rama  --subir avances a repositorios remotos
+
+gir pull alias rama --descargar avances del repositorio remoto
+
+git clone url --clona un repositorio
+*************************************************
+Git desde cero (Crear un repositorio)
+
+- git init
+- git add .
+- git commit -m "comentario del commit"
+- git branch -M main (23/02/24)
+- git remote add origin http......
+- gir push -u origin main (23/02/24)
+- git push origin master
+==========================================================================
+git status
+
+
+git add.
+todos los archivos a seguimiento
+
+git commit -m "comentario"
+
+git config -global user.name "Jose Hernandez"
+
+git config 
+
+git commit -m "Comentario"
+
+git log 
+los comit que hemos hecho
+
+git reset --hard
+
+
+Comandos con repositorios remotos
+
+git remote add alias url --vincula repositorio remoto y se asigna un alias
+
+git push alias rama  --subir avances a repositorios remotos
+
+gir pull alias rama --descargar avances del repositorio remoto
+
+git clone url --clona un repositorio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

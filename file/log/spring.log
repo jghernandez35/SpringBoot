@@ -1,0 +1,64 @@
+2024-02-23 13:32:08.464  INFO 18972 --- [main] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.8.1 on DESKTOP-JH-0323 with PID 18972 (D:\SPRING_BOOT\CursoSpring\target\classes started by Usuario in D:\SPRING_BOOT\CursoSpring)
+2024-02-23 13:32:08.468  INFO 18972 --- [main] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-02-23 13:32:09.788  INFO 18972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2024-02-23 13:32:09.808  INFO 18972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-23 13:32:09.809  INFO 18972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-02-23 13:32:09.978  INFO 18972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-23 13:32:09.978  INFO 18972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1392 ms
+2024-02-23 13:32:10.291  INFO 18972 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-02-23 13:32:10.567  INFO 18972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2024-02-23 13:32:10.581  INFO 18972 --- [main] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 2.754 seconds (JVM running for 13.532)
+2024-02-23 13:32:10.584  INFO 18972 --- [main] c.b.core.services.impl.PostServiceImpl   : Log Servicio 1
+2024-02-23 13:32:10.585  INFO 18972 --- [main] c.b.c.services.impl.PostServiceImplDos   : Log Servicio 2
+2024-02-23 13:32:10.586  INFO 18972 --- [main] ication$$EnhancerBySpringCGLIB$$c1e3ae2f : 1_Desarrollo WEB
+2024-02-23 13:32:10.587  INFO 18972 --- [main] ication$$EnhancerBySpringCGLIB$$c1e3ae2f : 2_Desarrollo Descktop
+2024-02-23 13:32:10.587  INFO 18972 --- [main] ication$$EnhancerBySpringCGLIB$$c1e3ae2f : 3_Desarrollo Frond-End
+2024-02-23 13:32:10.588  INFO 18972 --- [main] ication$$EnhancerBySpringCGLIB$$c1e3ae2f : 4_Desarrollo Back-End
+2024-02-23 13:33:26.751  INFO 18972 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-23 13:33:26.775  INFO 18972 --- [RMI TCP Connection(8)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-23 13:33:29.457  INFO 8892 --- [main] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.8.1 on DESKTOP-JH-0323 with PID 8892 (D:\SPRING_BOOT\CursoSpring\target\classes started by Usuario in D:\SPRING_BOOT\CursoSpring)
+2024-02-23 13:33:29.462  INFO 8892 --- [main] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-02-23 13:33:30.546  INFO 8892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2024-02-23 13:33:30.558  INFO 8892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-23 13:33:30.559  INFO 8892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-02-23 13:33:30.688  INFO 8892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-23 13:33:30.688  INFO 8892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1123 ms
+2024-02-23 13:33:30.959  INFO 8892 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-02-23 13:33:31.155  INFO 8892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2024-02-23 13:33:31.170  INFO 8892 --- [main] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 2.209 seconds (JVM running for 3.287)
+2024-02-23 13:33:31.173  INFO 8892 --- [main] c.b.core.services.impl.PostServiceImpl   : Log Servicio 1
+2024-02-23 13:33:31.174  INFO 8892 --- [main] c.b.c.services.impl.PostServiceImplDos   : Log Servicio 2
+2024-02-23 13:33:31.175  INFO 8892 --- [main] ication$$EnhancerBySpringCGLIB$$d41331d3 : 1_Desarrollo WEB
+2024-02-23 13:33:31.175  INFO 8892 --- [main] ication$$EnhancerBySpringCGLIB$$d41331d3 : 2_Desarrollo Descktop
+2024-02-23 13:33:31.175  INFO 8892 --- [main] ication$$EnhancerBySpringCGLIB$$d41331d3 : 3_Desarrollo Frond-End
+2024-02-23 13:33:31.175  INFO 8892 --- [main] ication$$EnhancerBySpringCGLIB$$d41331d3 : 4_Desarrollo Back-End
+2024-02-23 13:34:56.800  INFO 8892 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-23 13:34:56.823  INFO 8892 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-23 13:34:59.562  INFO 5732 --- [main] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.8.1 on DESKTOP-JH-0323 with PID 5732 (D:\SPRING_BOOT\CursoSpring\target\classes started by Usuario in D:\SPRING_BOOT\CursoSpring)
+2024-02-23 13:34:59.566  INFO 5732 --- [main] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-02-23 13:35:01.055  INFO 5732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2024-02-23 13:35:01.072  INFO 5732 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-23 13:35:01.073  INFO 5732 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-02-23 13:35:01.267  INFO 5732 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-23 13:35:01.267  INFO 5732 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1566 ms
+2024-02-23 13:35:01.678  INFO 5732 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-02-23 13:35:01.984  INFO 5732 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2024-02-23 13:35:02.000  INFO 5732 --- [main] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 3.068 seconds (JVM running for 4.202)
+2024-02-23 13:35:02.004  INFO 5732 --- [main] c.b.core.services.impl.PostServiceImpl   : Log Servicio 1
+2024-02-23 13:35:02.005  INFO 5732 --- [main] c.b.c.services.impl.PostServiceImplDos   : Log Servicio 2
+2024-02-23 13:35:02.006 ERROR 5732 --- [main] ication$$EnhancerBySpringCGLIB$$d41331d3 : java.lang.NullPointerException: El ID esta nulo
+2024-02-23 13:38:02.403  INFO 5732 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-02-23 13:38:02.425  INFO 5732 --- [RMI TCP Connection(10)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-23 13:38:06.076  INFO 17392 --- [main] c.bytecode.core.CursoSpringApplication   : Starting CursoSpringApplication using Java 17.0.8.1 on DESKTOP-JH-0323 with PID 17392 (D:\SPRING_BOOT\CursoSpring\target\classes started by Usuario in D:\SPRING_BOOT\CursoSpring)
+2024-02-23 13:38:06.080  INFO 17392 --- [main] c.bytecode.core.CursoSpringApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-02-23 13:38:07.377  INFO 17392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2024-02-23 13:38:07.393  INFO 17392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-23 13:38:07.393  INFO 17392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-02-23 13:38:07.541  INFO 17392 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-23 13:38:07.542  INFO 17392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1367 ms
+2024-02-23 13:38:07.837  INFO 17392 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-02-23 13:38:08.072  INFO 17392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2024-02-23 13:38:08.086  INFO 17392 --- [main] c.bytecode.core.CursoSpringApplication   : Started CursoSpringApplication in 2.592 seconds (JVM running for 3.901)
+2024-02-23 13:38:08.091  INFO 17392 --- [main] c.b.core.services.impl.PostServiceImpl   : Log Servicio 1
+2024-02-23 13:38:08.092  INFO 17392 --- [main] c.b.c.services.impl.PostServiceImplDos   : Log Servicio 2
+2024-02-23 13:38:08.092 ERROR 17392 --- [main] ication$$EnhancerBySpringCGLIB$$dae1637e : java.lang.NullPointerException: El ID esta nulo
